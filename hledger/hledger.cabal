@@ -170,7 +170,7 @@ library
     , hledger-lib ==1.40.*
     , lucid
     , math-functions >=0.3.3.0
-    , megaparsec >=7.0.0 && <9.7
+    , megaparsec >=7.0.0 && <9.8
     , microlens >=0.4
     , mtl >=2.2.1
     , process
@@ -224,7 +224,7 @@ executable hledger
     , hledger
     , hledger-lib ==1.40.*
     , math-functions >=0.3.3.0
-    , megaparsec >=7.0.0 && <9.7
+    , megaparsec >=7.0.0 && <9.8
     , microlens >=0.4
     , mtl >=2.2.1
     , process
@@ -279,7 +279,7 @@ test-suite unittest
     , hledger
     , hledger-lib ==1.40.*
     , math-functions >=0.3.3.0
-    , megaparsec >=7.0.0 && <9.7
+    , megaparsec >=7.0.0 && <9.8
     , microlens >=0.4
     , mtl >=2.2.1
     , process
@@ -333,7 +333,7 @@ benchmark bench
     , hledger-lib ==1.40.*
     , html
     , math-functions >=0.3.3.0
-    , megaparsec >=7.0.0 && <9.7
+    , megaparsec >=7.0.0 && <9.8
     , microlens >=0.4
     , mtl >=2.2.1
     , process
